@@ -4,7 +4,7 @@ import { data } from '../Data';
 <template>
     <div class="w-full h-screen flex md:items-center md:justify-center">
     <div class="w-11/12 h-3/6 mx-auto grid grid-cols-1 md:grid-cols-4 md:gap-8 gap-2">
-       <div class="sidebar" v-for="(datas,index) in data" :key="datas.id">
+       <div class="sidebar rounded-lg" v-for="(datas,index) in data" :key="datas.id">
         <div class="w-11/12 mx-auto ">
             <img  class='rounded-lg h-64 object-contain' :src="datas.foto">
         </div>

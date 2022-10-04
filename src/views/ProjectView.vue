@@ -10,7 +10,8 @@ import { data } from '../Data';
         </div>
         <div class="mt-6 w-full text-center">
             <h1 class="font-roboto text-xl text-white font-bold">{{datas.nama}}</h1>
-            <button class="w-11/12 mx-auto py-4 rounded-lg mt-10 sidebar"><a class="text-white font-roboto text-xl" :href="datas.url">See Project</a></button>
+            <h1 class="font-roboto text-lg text-white font-light pt-3">Teknologi : {{datas.stack}}</h1>
+            <button class="w-11/12 mx-auto py-4 rounded-lg mt-2 sidebar"><a class="text-white font-roboto text-xl" :href="datas.url">See Project</a></button>
         </div>
        </div>
     </div>

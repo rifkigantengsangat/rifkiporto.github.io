@@ -23,7 +23,7 @@ const path = router.path
      }
     }
 }">
-<div class="flex items-center flex-shrink-0 md:justify-start justify-center gap-4 h-full font-monserrat">
+<div class="flex items-center  md:justify-start justify-center gap-4 h-full font-monserrat">
  <div class="mx-4">
     <router-link to="/" :class="router.path ==='/' ? 'text-red-700 font-bold' : 'text-white font-light' ">Home</router-link>
  </div>

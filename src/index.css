@@ -7,7 +7,6 @@
     margin:0%;
     padding: 0%;
     box-sizing: border-box;
-    overflow: hidden;
 }
 html { 
     width: 100%;
@@ -32,7 +31,6 @@ html {
     background-image: url('./assets/line.png');
     background-position: 0 0;
     color: transparent;
-    font-size: 50px;
     position: relative;
     text-transform: uppercase;
   }

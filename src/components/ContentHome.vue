@@ -27,7 +27,7 @@
              }
             }
         }" >
-            <h1 class="text-xl font-medium font-roboto text-white"  >Hello I'm </h1>
+            <h1 class=" text-md md:text-xl font-medium font-roboto text-white"  >Hello I'm </h1>
         </div>
         <div v-motion :initial="{
             opacity : 0,
@@ -51,7 +51,7 @@
              }
             }
         }">
-            <h1 class="text-4xl font-extrabold font-roboto text-white name pt-4">Raden Muhamad Rifki </h1>
+            <h1 class=" text-2xl md:text-6xl font-extrabold font-roboto text-white name pt-4">Raden Muhamad Rifki </h1>
         </div>
         <div v-motion :initial="{
             opacity : 0,
@@ -74,12 +74,12 @@
              }
             }
         }">
-            <h1 class="text-2xl font-extrabold font-roboto text-white  pt-4">Frontend Developer Based In Bogor </h1>
+            <h1 class="text-lg md:text-2xl font-extrabold font-roboto text-white  pt-4">Frontend Developer Based In Bogor </h1>
         </div>
      </div>
       </div>
       <div class="flex justify-between mt-6 w-64 gap-4" >
-    <div class="w-1/2 flex items-center justify-center sidebar h-10 rounded-md hover:bg-red-700" v-motion :initial="{
+    <div class=" w-1/3 md:w-1/2 flex items-center justify-center sidebar h-10 rounded-md hover:bg-red-700" v-motion :initial="{
         opacity:0,
         y:100,
       }" :enter="{
@@ -93,9 +93,9 @@
 
         }
       }">
-        <router-link to="/projects"  class="font-roboto text-white block">See Project</router-link>
+        <router-link to="/projects"  class="text-sm font-roboto text-white block">See Project</router-link>
     </div>
-    <div class="w-1/2 flex items-center justify-center sidebar h-10 rounded-md hover:bg-red-700" v-motion :initial="{
+    <div class=" w-1/3 md:w-1/2 flex items-center justify-center sidebar h-10 rounded-md hover:bg-red-700" v-motion :initial="{
         opacity:0,
         y:100,
       }" :enter="{
@@ -109,7 +109,7 @@
 
         }
       }">
-        <router-link to="/projects" class="font-roboto text-white block">See Project</router-link>
+        <router-link to="/projects" class="text-sm font-roboto text-white block">See Project</router-link>
     </div>
       </div>
     </div>

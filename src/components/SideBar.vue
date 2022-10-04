@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="sidebar basis-[8%] h-full flex justify-center items-center" v-motion :initial="{
+    <div class="sidebar basis-[10%] md:basis-[8%] h-screen md:h-full flex justify-center items-center" v-motion :initial="{
         opacity : 0,
         x:-300,
        
@@ -20,7 +20,7 @@
          }
         }
     }">
-    <div class="h-64 w-11/12 mx-auto block ">
+    <div class="h-64  w-11/12 mx-auto block ">
       <div class="flex flex-col items-center  ">
         <img src="../components/icons/icons8-github.svg" class="w-[70px] block py-4 ">
         <img src="../components/icons/icons8-tiktok.svg" class="w-[70px] block py-4">

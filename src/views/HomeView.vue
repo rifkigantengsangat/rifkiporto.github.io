@@ -4,7 +4,7 @@ import ContentHome from '../components/ContentHome.vue';
 </script>
 
 <template>
-  <main class="w-full h-screen flex">
+  <main class="w-full h-screen flex ">
    <SideBar/>
    <ContentHome/>
   </main>
